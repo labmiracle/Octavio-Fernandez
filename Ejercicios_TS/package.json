@@ -1,0 +1,21 @@
+{
+  "name": "ejercicios_ts",
+  "version": "1.0.0",
+  "description": "Ejercicios practica TS Miracle Lab",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node ./build/index.js",
+    "prestart": "npm install && npm run build"
+  },
+  "author": "OctavioIsmaelFernandez",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.3.0",
+    "@typescript-eslint/parser": "^6.3.0",
+    "eslint": "^8.46.0",
+    "eslint-plugin-react": "^7.33.1",
+    "prettier": "^3.0.1",
+    "typescript": "^5.1.6"
+  }
+}
